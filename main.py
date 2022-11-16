@@ -6,6 +6,7 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 import plotly.graph_objects as go
 # from plotly import graph_objs as go
+# str
 
 START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
