@@ -11,7 +11,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title("Coin Predictor")
 
-stocks = ("SPY","BTC-USD","ETH-USD","USDT-USD","USDC-USD")
+stocks = ("SPY","BTC-USD","ETH-USD","USDT-USD","USDC-USD","ADA-USD")
 selected_stocks = st.selectbox("Pick a coin for prediction",stocks)
 
 n_years = st.slider("Years of Prediction:",1,5)
@@ -27,7 +27,7 @@ data_load_state = st.text("Load data")
 data = load_data(selected_stocks)
 data_load_state.text("Loading data")
 
-st.subheader("Raw data")
+st.subheader("Data")
 st.write(data.tail())
 
 def plot_raw_data():

@@ -142,7 +142,7 @@ itemloaders @ file:///opt/conda/conda-bld/itemloaders_1646805235997/work
 itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
 jdcal @ file:///Users/ktietz/demo/mc3/conda-bld/jdcal_1630584345063/work
 jedi @ file:///opt/concourse/worker/volumes/live/89be3eb0-a85c-453b-67dd-f706f2fa4c43/volume/jedi_1644315269953/work
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
+Jinja2==3.1.2
 jinja2-time @ file:///opt/conda/conda-bld/jinja2-time_1649251842261/work
 jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
 joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
